@@ -2,6 +2,7 @@ katz_deli = []
 
 def line(katz_deli)
   linestr = ""
+  spot = nil
   katz_deli.each do |name|
     spot = name.index + 1
     linestr += "#{spot}. #{name}"
