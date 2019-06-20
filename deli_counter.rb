@@ -3,8 +3,7 @@ katz_deli = []
 def line(katz_deli)
   linestr = ""
   katz_deli.each do |name|
-    spot = katz_deli.index(name) + 1
-    linestr += "#{spot}. #{name} "
+    linestr += "#{katz_deli.index(name) + 1}. #{name} "
   end
   if katz_deli.length == 0
     puts "The line is currently empty."
