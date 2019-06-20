@@ -1,6 +1,7 @@
 katz_deli = []
-linestr = ""
+
 def line(katz_deli)
+  linestr = ""
   katz_deli.each do |name|
     spot = name.index + 1
     linestr += "#{spot}. #{name}"
@@ -15,4 +16,4 @@ end
 
 def take_a_number(katz_deli, name)
 
-end 
+end
