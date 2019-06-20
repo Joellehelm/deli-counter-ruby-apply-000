@@ -5,7 +5,7 @@ def line(katz_deli)
 
   katz_deli.each do |name|
     spot = katz_deli.index(name) + 1
-    linestr += "#{spot}. #{name}"
+    linestr += "#{spot}. #{name} "
   end
   if katz_deli.length == 0
     puts "The line is currently empty."
